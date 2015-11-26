@@ -47,4 +47,8 @@ Licensed under [MIT][mit]. Enjoy.
 
 [twitter]: https://twitter.com/ryanwellsdotcom
 [mit]: http://www.opensource.org/licenses/mit-license.php
+<<<<<<< HEAD
 [jquery]: http://jquery.com/
+=======
+[jquery]: http://jquery.com/
+>>>>>>> c9d51fabb5183306cfdd5a9e71008eecc2505654
