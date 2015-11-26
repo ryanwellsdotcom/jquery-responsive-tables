@@ -1,0 +1,53 @@
+/*
+ * Responsive Tables plugin 1.0
+ * Ryan Wells 
+ * Copyright 2015, Ryan Wells (http://ryanwells.com)
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+*/
+
+@media only screen and (max-width: 800px)  { /* change media query width to suit needs */
+	
+	/* force table markup to behave like divs */
+	table.respond table, 
+	table.respond thead, 
+	table.respond tbody, 
+	table.respond th, 
+	table.respond td, 
+	table.respond tr { 
+		display: block; 
+		text-align: left
+	}
+	
+	/* hide table headers (but not display: none;, for accessibility) */
+	table.respond thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	table.respond tr { 
+		border: 1px solid #ccc; 
+	}
+	
+	table.respond td { 
+		/* behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		font-weight: normal;
+	}
+	
+	table.respond td:before { 
+		/* becomes the table header */
+		position: absolute;
+		/* top/left values mimic padding */
+		top: 8px;/* mimic padding top */
+		left: 6px;/* mimic padding left */
+		width: 45%; 
+		text-align: left!important;
+		padding-right: 0; 
+		font-weight: bold;
+	}
+}
