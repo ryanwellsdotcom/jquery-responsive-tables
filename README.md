@@ -7,8 +7,7 @@ A lightweight jQuery plugin  that allows table markup to become fully responsive
 <ol>
     <li>include the <em>responsive-tables.css</em> in your page within the &lt;head&gt;&lt;/head&gt; tags</li>
     <li>Include the <em>jquery.responsive-tables.js</em> in your page after <a href="http://jquery.com/download/" target="_blank">jQuery</a></li>
-    invoke the plugin within your custom scripts file, e.g. 
-    <br>
+    invoke the plugin within your custom scripts file, e.g. </li>
     ```javascript
     $(document).ready(function() {
         $.responsiveTables();    
