@@ -24,12 +24,17 @@ Add the class 'respond' to the &lt;table&gt; tag of the chosen table(s):
 ```
 ###customizations 
 
-Within the responsive-tables.css style sheet, modifying the values of the ‘top’ and ‘left’ properties will change the perceived table heading padding at the “mobile” view. This will enable consitancy between the table heading and table data padding:
+Within the <em>responsive-tables.css</em> style sheet, modifying the values of the 'top' and 'left' properties will change the perceived table heading padding at the &quot;mobile&quot; view. This will enable consitancy between the table heading and table data padding:
 ```css
 table.respond td:before { 
-		/* top/left values mimics padding */
-		top: 8px;/* mimics padding top */
-		left: 6px;/* mimics padding left */
+    /* top/left values mimics padding */
+    top: 8px;/* mimics padding top */
+    left: 6px;/* mimics padding left */
+```
+
+within the <em>responsive-tables.css</em> style sheet, change the media query breakpoint as needed:
+```css
+@media only screen and (max-width: 800px) 
 ```
 
 ###Author
@@ -40,9 +45,6 @@ Ryan Wells: [@ryanwellsdotcom][twitter]
 
 Licensed under [MIT][mit]. Enjoy.
 
-[demo]: http://wagerfield.github.com/parallax/
-[twitter]: http://twitter.com/wagerfield
+[twitter]: https://twitter.com/ryanwellsdotcom
 [mit]: http://www.opensource.org/licenses/mit-license.php
 [jquery]: http://jquery.com/
-[zepto]: http://zeptojs.com/
-[gulp]: http://gulpjs.com/
