@@ -10,7 +10,7 @@ include the <em>responsive-tables.css</em> in your page within the &lt;head&gt;&
 
 Include the <em>jquery.responsive-tables.js</em> in your page after <a href="http://jquery.com/download/" target="_blank">jQuery</a>.
 
-invoke the plugin within your custom scripts file: 
+Invoke the plugin within your custom scripts file: 
 ```javascript
 $(document).ready(function() {
     $.responsiveTables();    
@@ -25,7 +25,7 @@ Add the class 'respond' to the &lt;table&gt; tag of the chosen table(s):
     <thead>
         ...
 ```
-###customizations 
+###Customizations 
 
 Within the <em>responsive-tables.css</em> style sheet, modifying the values of the 'top' and 'left' properties will change the perceived table heading padding at the &quot;mobile&quot; view. This will enable consitancy between the table heading and table data padding:
 ```css
@@ -42,12 +42,12 @@ within the <em>responsive-tables.css</em> style sheet, change the media query br
 
 ###Author
 
-Ryan Wells: [@ryanwellsdotcom][twitter]
+Ryan Wells: [ryanwells.com][twitter]
 
 ###License
 
 Licensed under [MIT][mit]. Enjoy.
 
-[twitter]: https://twitter.com/ryanwellsdotcom
+[twitter]: http://ryanwells.com
 [mit]: http://www.opensource.org/licenses/mit-license.php
 [jquery]: http://jquery.com/
