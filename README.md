@@ -35,7 +35,7 @@ table.respond td:before {
     left: 6px;/* mimics padding left */
 ```
 
-within the <em>responsive-tables.css</em> style sheet, change the media query breakpoint as needed:
+within both the <em>responsive-tables.css</em> style sheet and the <em>responsive-tables.js</em>em>, change the media query breakpoints as needed, ensuring that both widths match:
 ```css
 @media only screen and (max-width: 800px) 
 ```
