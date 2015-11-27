@@ -2,6 +2,8 @@
 
 A lightweight jQuery plugin  that allows table markup to become fully responsive. It provides a clean list  view via devices with small screens. It can work for multiple tables on a  single page, as well as with tables that contain various combinations of merged  cells. Best of all, it uses pure CSS for the rendering. 
 
+####<a href="http://ryanwells.com/examples/responsive-tables/" target="_blank">Demo</a>
+
 ###How to use
 
 include the <em>responsive-tables.css</em> in your page within the &lt;head&gt;&lt;/head&gt; tags.
