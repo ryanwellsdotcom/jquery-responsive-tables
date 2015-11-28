@@ -5,10 +5,9 @@
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 */
-
 (function($) {
     $.extend({
-        responsiveTables: function() {
+        responsiveTables: function(breakpoint) {
             // responsive tables
             if ($('.respond').not('responded').length > 0) {
                 $('.respond').not('responded').each(function(c) { // loop through each table that has .respond class
@@ -18,7 +17,7 @@
                     $this.addClass(className); // add the unique classes
                     $this.addClass('responded'); // add the unique classes
                     var respondHtml = '<style type="text/css">\n'; // write out scoped styles (ok in HTML5)
-                    respondHtml += '@media only screen and (max-width: 800px)  {\n'; // change the width accordingly
+                    respondHtml += '@media only screen and (max-width:'+breakpoint+')  {\n'; // change the width accordingly
                     $this.find('thead th').each(function(i) { // loop through th tags 
                         var $text = $(this).text(); // get table heading text from each th
                         i++; // start array at 1 for css instead of 0

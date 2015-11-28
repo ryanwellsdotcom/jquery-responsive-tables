@@ -1,3 +1,3 @@
 $(document).ready(function() {
-     $.responsiveTables();    
+     $.responsiveTables('800px');    
 });
