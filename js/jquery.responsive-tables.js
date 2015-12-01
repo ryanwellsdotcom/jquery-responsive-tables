@@ -30,7 +30,6 @@
                         $(this).parent().find('td').each(function() { // loop through each td   
                             var $td = $(this),
                                 colspan = parseInt($td.attr('colspan'), 10);
-
                             $td.addClass('col-' + i); // add incremented class name to target cells
                             if (!isNaN(colspan)) { // has colspan
                                 i += colspan; // increment index by colspan number
