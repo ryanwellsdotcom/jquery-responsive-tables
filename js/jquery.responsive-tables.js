@@ -23,19 +23,19 @@
                         i++; // start array at 1 for css instead of 0
                         // these will become the vertical table headers when collapsed for tablet and mobile
                         respondHtml += '\t.' + className + '>tbody>tr>td:not([colspan]):nth-of-type(' + i + '):before { content: "' + $text + '"; }\n';
-                        respondHtml += '\t.' + className + '>tbody>tr>td:not([colspan]).col-' + i + ':before { content: "' + $text + '"; }\n'; // applied to td tags on the row that has a colspan
+                        respondHtml += '\t.' + className + '>tbody>tr>td.col-' + i + ':before { content: "' + $text + '"; }\n'; // applied to td tags on the row that has a colspan
                     });
                     $this.find('td[colspan]').each(function(i) { // loop through each cell with colspan
-                        var index = 1; // one based index for css
-                        $(this).parent().find('td').each(function() { // loop through each td	
+                        i++; // one based index for css
+                        $(this).parent().find('td').each(function() { // loop through each td   
                             var $td = $(this),
                                 colspan = parseInt($td.attr('colspan'), 10);
 
-                            $td.addClass('col-' + index); // add incremented class name to target cells
+                            $td.addClass('col-' + i); // add incremented class name to target cells
                             if (!isNaN(colspan)) { // has colspan
-                                index += colspan; // increment index by colspan number
+                                i += colspan; // increment index by colspan number
                             } else {
-                                index++; // no colspan
+                                i++; // no colspan
                             }
                         });
                     });
