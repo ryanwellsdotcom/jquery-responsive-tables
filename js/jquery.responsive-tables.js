@@ -8,6 +8,7 @@
 (function($) {
     $.extend({
         responsiveTables: function(breakpoint) {
+        	breakpoint = breakpoint || '800px';
             // responsive tables
             if ($('.respond').not('responded').length > 0) {
                 $('.respond').not('responded').each(function(c) { // loop through each table that has .respond class
