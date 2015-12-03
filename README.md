@@ -13,7 +13,7 @@ Include the <em>jquery.responsive-tables.js</em> in your page after <a href="htt
 Invoke the plugin within your custom scripts file: 
 ```javascript
 $(document).ready(function() {
-    $.responsiveTables('800px');    
+    $.responsiveTables();    
 });    
 ```
 Ensure that tables are marked up using the &lt;thead&gt;&lt;/thead&gt; and &lt;tbody&gt;&lt;/tbody&gt; tags.
@@ -39,7 +39,7 @@ Within the <em>responsive-tables.css</em> style sheet, change the media query br
 ```css
 @media only screen and (max-width: 768px) 
 ```
-When changing the media query breakpoint within the <em>responsive-tables.css</em> style sheet, as described above, ensure that the value passed from the plugin invocation matches: 
+When changing the media query breakpoint within the <em>responsive-tables.css</em> style sheet, as described above, ensure that a matching value is passed from the plugin invocation: 
 ```javascript
 $.responsiveTables('768px');    
 ```
