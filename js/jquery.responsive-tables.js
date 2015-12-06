@@ -34,9 +34,9 @@
                             var $this = $(this);                            
                             i++;
                             if (modIndex > 0) {
-                                    modIndex[0];
-                                    i++;
-                                }
+                                modIndex[0];
+                                i++;
+                            }
                             if (arrColspan > 0) {
                                 m = (i + arrColspan.shift() - 1);
                                 modIndex.splice(0,1);
@@ -46,9 +46,6 @@
                             if ($this.is('[colspan]')) {                
                                 c = parseInt($(this).prop('colspan'), 10);
                                 arrColspan.push(c);                                
-                            }
-                            if (i === arrHeaderText.length) {
-                                modIndex.splice(0,1);
                             }
                             $this.addClass('rt-cell-' + i);
                         });                        
