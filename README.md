@@ -9,7 +9,7 @@ A lightweight jQuery plugin that enables HTML table markup to become responsive.
 npm install jquery-responsive-tables --save
 ```
 * The plugin requires <a href="http://jquery.com/download/" target="_blank">jQuery</a> 1.11 or above.
-* Include the <em>jquery.responsive-tables.js</em> and the <em>responsive-tables.css</em> in your project. The CSS properties can overridden to meet your needs.
+* Include the <em>jquery.responsive-tables.js</em> and the <em>responsive-tables.css</em> in your project. The CSS properties can be overridden to meet your needs.
 * Invoke the plugin within your custom scripts file: 
 ```javascript
 $(document).ready(function() {
