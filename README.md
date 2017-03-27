@@ -16,19 +16,25 @@ $(document).ready(function() {
     $.responsiveTables();    
 });    
 ```
-* Ensure that tables are marked up semantically using the &lt;thead&gt;&lt;/thead&gt; and &lt;tbody&gt;&lt;/tbody&gt; tags.
-* Add the class 'respond' to the &lt;table&gt; tag of the chosen table(s):
+* Ensure that tables are marked up semantically using the &lt;thead&gt;&lt;/thead&gt; and &lt;tbody&gt;&lt;/tbody&gt; tags:
 ```html
 <table class="respond">
-    <caption>Example</caption>
+  <caption>Example</caption>
     <thead>
+      <tr>
+        <th>Heading</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sample</td>
         ...
 ```
 ### Customizations 
 
 Within the <em>responsive-tables.css</em> style sheet, modifying the values of the 'top' and 'left' properties will change the perceived table heading padding at the &quot;mobile&quot; view. This will enable consitancy between the table heading and table data padding:
 ```css
-table.respond td:before { 
+.jrt td:before { 
     /* top/left values mimics padding */
     top: 8px;/* mimics padding top */
     left: 6px;/* mimics padding left */
