@@ -6,19 +6,19 @@ A lightweight jQuery plugin  that allows table markup to become fully responsive
 
 ### How to use
 
-include the <em>responsive-tables.css</em> in your page within the &lt;head&gt;&lt;/head&gt; tags.
+1. include the <em>responsive-tables.css</em> in your page within the &lt;head&gt;&lt;/head&gt; tags.
 
-Include the <em>jquery.responsive-tables.js</em> in your page after <a href="http://jquery.com/download/" target="_blank">jQuery</a>.
+2. Include the <em>jquery.responsive-tables.js</em> in your page after <a href="http://jquery.com/download/" target="_blank">jQuery</a>.
 
-Invoke the plugin within your custom scripts file: 
+3. Invoke the plugin within your custom scripts file: 
 ```javascript
 $(document).ready(function() {
     $.responsiveTables();    
 });    
 ```
-Ensure that tables are marked up using the &lt;thead&gt;&lt;/thead&gt; and &lt;tbody&gt;&lt;/tbody&gt; tags.
+4. Ensure that tables are marked up using the &lt;thead&gt;&lt;/thead&gt; and &lt;tbody&gt;&lt;/tbody&gt; tags.
 
-Add the class 'respond' to the &lt;table&gt; tag of the chosen table(s):
+5. Add the class 'respond' to the &lt;table&gt; tag of the chosen table(s):
 ```html
 <table class="respond">
     <caption>Example</caption>
