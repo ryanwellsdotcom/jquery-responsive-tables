@@ -4,7 +4,12 @@ A lightweight jQuery plugin that enables HTML table markup to become responsive.
 
 #### <a href="http://ryanwells.com/examples/responsive-tables/" target="_blank">Demo</a>
 
-### How to use
+### Install with npm
+```
+npm install jquery-responsive-tables --save
+```
+
+### Usage
 
 1. include the <em>responsive-tables.css</em> in your page within the &lt;head&gt;&lt;/head&gt; tags.
 2. Include the <em>jquery.responsive-tables.js</em> in your page after <a href="http://jquery.com/download/" target="_blank">jQuery</a>.
