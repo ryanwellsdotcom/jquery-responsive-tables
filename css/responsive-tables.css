@@ -1,7 +1,7 @@
 /*
- * Responsive Tables plugin 1.2.0
+ * Responsive Tables plugin 1.3.0
  * Ryan Wells 
- * Copyright 2015, Ryan Wells (http://ryanwells.com)
+ * Copyright 2017, Ryan Wells (http://ryanwells.com)
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 */
@@ -9,25 +9,25 @@
 @media only screen and (max-width: 800px) {
     /* change media query width to suit needs */
     /* force table markup to behave like divs */
-    table.respond table,
-    table.respond thead,
-    table.respond tbody,
-    table.respond th,
-    table.respond td,
-    table.respond tr {
+    .jrt table,
+    .jrt thead,
+    .jrt tbody,
+    .jrt th,
+    .jrt td,
+    .jrt tr {
         display: block;
         text-align: left
     }
     /* hide table headers (but not display: none;, for accessibility) */
-    table.respond thead tr {
+    .jrt thead tr {
         position: absolute;
         top: -9999px;
         left: -9999px;
     }
-    table.respond tr {
+    .jrt tr {
         border: 1px solid #ccc;
     }
-    table.respond td {
+    .jrt td {
         /* behave  like a "row" */
         border: none;
         border-bottom: 1px solid #eee;
@@ -35,7 +35,7 @@
         padding-left: 50%;
         font-weight: normal;
     }
-    table.respond td:before {
+    .jrt td:before {
         /* becomes the table header */
         position: absolute;
         /* top/left values mimic padding */
