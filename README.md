@@ -18,7 +18,7 @@ $(document).ready(function() {
 ```
 * Ensure that tables are marked up semantically using the &lt;thead&gt;&lt;/thead&gt; and &lt;tbody&gt;&lt;/tbody&gt; tags:
 ```html
-<table class="respond">
+<table>
   <caption>Example</caption> <!--optional-->
     <thead>
       <tr>
