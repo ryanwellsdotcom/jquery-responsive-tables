@@ -1,5 +1,5 @@
 /*
- * Responsive Tables plugin 2.0.0
+ * Responsive Tables plugin 2.0.1
  * Ryan Wells 
  * Copyright 2017, Ryan Wells (http://ryanwells.com)
  * Free to use under the MIT license.
@@ -47,5 +47,7 @@
         text-align: left!important;
         padding-right: 0;
         font-weight: bold;
+        white-space: pre;
+        overflow: hidden;
     }
 }
