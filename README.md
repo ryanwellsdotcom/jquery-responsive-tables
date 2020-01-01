@@ -48,15 +48,6 @@ $(document).ready(function() {
 
 ### Customizations
 
-Within the <em>responsive-tables.css</em> style sheet, modifying the values of the 'top' and 'left' properties will change the perceived table heading padding at the &quot;mobile&quot; view. This will enable consitancy between the table heading and table data padding:
-
-```css
-.jrt td:before {
-    /* top/left values mimics padding */
-    top: 8px;/* mimics padding top */
-    left: 6px;/* mimics padding left */
-```
-
 Within the <em>responsive-tables.css</em> style sheet, change the media query breakpoint as needed:
 
 ```css
