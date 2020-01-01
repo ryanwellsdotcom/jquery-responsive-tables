@@ -1,0 +1,27 @@
+{
+    "name": "jquery-responsive-tables",
+    "version": "2.1.0",
+    "description": "Plugin for mobile-friendly data tables",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ryanwellsdotcom/jquery-responsive-tables.git"
+    },
+    "keywords": [
+        "jquery",
+        "responsive",
+        "tables"
+    ],
+    "author": "Ryan Wells (https://ryanwells.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ryanwellsdotcom/jquery-responsive-tables/issues"
+    },
+    "homepage": "https://github.com/ryanwellsdotcom/jquery-responsive-tables#readme",
+    "dependencies": {
+        "jquery": ">=2.11"
+    }
+}
