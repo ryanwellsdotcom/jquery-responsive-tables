@@ -27,6 +27,7 @@ node_modules/
 # files #
 ######################
 settings.json
+.npmrc
 
 # Logs and databases #
 ######################
