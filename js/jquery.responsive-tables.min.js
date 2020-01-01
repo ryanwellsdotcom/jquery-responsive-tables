@@ -1,5 +1,5 @@
 /*
- * Responsive Tables plugin 2.2.0
+ * Responsive Tables plugin 2.2.1
  * Ryan Wells
  * Copyright 2019, Ryan Wells (https://ryanwells.com)
  * Free to use under the MIT license.
