@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ryanwellsdotcom/jquery-responsive-tables.git"
+        "url": "ssh://git@github.com:ryanwellsdotcom/jquery-responsive-tables.git"
     },
     "keywords": [
         "jquery",
