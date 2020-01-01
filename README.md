@@ -1,5 +1,7 @@
 ## jquery-responsive-tables
 
+[![npm version](https://badge.fury.io/js/jquery-responsive-tables.svg)](https://badge.fury.io/js/jquery-responsive-tables)
+
 A lightweight jQuery plugin that enables HTML table markup to become responsive. It provides a clean list view via devices with small screens, then returns to the traditional view for larger screens. It can work for multiple tables on a single page, as well as with tables that contain various combinations of merged cells. It uses CSS for the rendering and is easily customized.
 
 #### <a href="http://ryanwells.com/examples/responsive-tables/" target="_blank">Demo</a>
