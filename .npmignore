@@ -31,6 +31,7 @@ app.js
 !package.json
 .vscode
 .prettierrc
+screenshot.png
 
 # Logs and databases #
 ######################
