@@ -28,6 +28,8 @@ node_modules/
 ######################
 settings.json
 .npmrc
+.vscode
+.prettierrc
 
 # Logs and databases #
 ######################

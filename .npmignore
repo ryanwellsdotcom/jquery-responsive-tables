@@ -29,6 +29,8 @@ node_modules/
 demo.html
 app.js
 !package.json
+.vscode
+.prettierrc
 
 # Logs and databases #
 ######################
