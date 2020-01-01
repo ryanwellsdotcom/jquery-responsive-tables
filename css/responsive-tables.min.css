@@ -1,9 +1,8 @@
 /*
- * Responsive Tables plugin 2.1.1
+ * Responsive Tables plugin 2.2.0
  * Ryan Wells 
  * Copyright 2019, Ryan Wells (https://ryanwells.com)
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 */
-
-@media only screen and (max-width:800px){.jrt table,.jrt tbody,.jrt td,.jrt th,.jrt thead,.jrt tr{display:block;text-align:left}.jrt thead tr{position:absolute;top:-9999px;left:-9999px}.jrt tr{border:1px solid #ccc}.jrt td{border:none;border-bottom:1px solid #eee;position:relative;font-weight:400}.jrt td:before{position:absolute;top:8px;left:6px;width:45%;text-align:left!important;padding-right:0;font-weight:700;white-space:pre;overflow:hidden}}
+@media only screen and (max-width:800px){.jrt table,.jrt tbody,.jrt td,.jrt th,.jrt thead,.jrt tr{display:block;text-align:left}.jrt thead tr{position:absolute;top:-9999px;left:-9999px}.jrt tr{border:1px solid #ccc}.jrt td{display:-webkit-box;display:-ms-flexbox;display:flex;border:none;border-bottom:1px solid #eee;position:relative;font-weight:400}.jrt td:before{display:-webkit-box;display:-ms-flexbox;display:flex;width:45%;padding-right:6px;font-weight:700}}
