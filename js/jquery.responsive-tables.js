@@ -1,5 +1,5 @@
 /*
- * Responsive Tables plugin 2.1.1
+ * Responsive Tables plugin 2.2.0
  * Ryan Wells
  * Copyright 2019, Ryan Wells (https://ryanwells.com)
  * Free to use under the MIT license.
@@ -15,28 +15,26 @@ $.extend({
                 var $this = $(this);
                 $this.addClass('jrt');
                 $this.addClass(className);
-
                 var respondHtml = '<style type="text/css">\n';
                 respondHtml +=
                     '@media only screen and (max-width:' +
                     breakpoint +
                     ')  {\n';
                 if ($this.find('thead').length > 0) {
-                    var arrHeaderText = [];
-                    $this.find('thead th').each(function(i, $text) {
-                        $text = $(this).text();
+                    $this.find('thead th').each(function(i) {
+                        var $tdText = $(this)
+                            .text()
+                            .replace(/\s+/g, ' ');
                         i++;
-                        arrHeaderText.push($text);
                         respondHtml +=
                             '\t.' +
                             className +
                             '>tbody>tr>td.jrt-cell-' +
                             i +
                             ':before { content: "' +
-                            $text +
+                            $tdText +
                             '"; }\n';
                     });
-                    respondHtml += '\t.jrt td { padding-left: 50% }\n';
                 }
                 $this.find('tbody > tr').each(function(i) {
                     var $this = $(this);
