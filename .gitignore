@@ -29,7 +29,6 @@ node_modules/
 settings.json
 .npmrc
 .vscode
-.prettierrc
 screenshot.png
 
 # Logs and databases #
